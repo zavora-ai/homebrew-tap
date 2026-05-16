@@ -1,8 +1,8 @@
 class Lm < Formula
   desc "macOS launchd service manager - CLI interface"
   homepage "https://github.com/zavora-ai/macos-launch-manager"
-  url "https://github.com/zavora-ai/macos-launch-manager/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "d44d0d7d127d19eda44d0e2c9b0155d2eea5cf3e46890d428004abfe92ba70b1"
+  url "https://github.com/zavora-ai/macos-launch-manager/archive/refs/tags/v1.1.0.tar.gz"
+  sha256 "18606d6606264c752faa044cefc9f8eb9f966c8118db923e1188f10e8e66b926"
   license "Apache-2.0"
   head "https://github.com/zavora-ai/macos-launch-manager.git", branch: "main"
 
