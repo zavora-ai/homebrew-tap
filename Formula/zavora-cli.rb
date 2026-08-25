@@ -1,7 +1,6 @@
 class ZavoraCli < Formula
   desc "ADK-Rust agent platform for terminal work"
   homepage "https://github.com/zavora-ai/zavora-cli"
-  version "2.1.0"
   license "MIT"
 
   on_macos do
