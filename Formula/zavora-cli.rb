@@ -5,25 +5,25 @@ class ZavoraCli < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/zavora-ai/zavora-cli/releases/download/v2.1.0/zavora-cli-v2.1.0-darwin-arm64.tar.gz"
-      sha256 "c3bf4343abf823b23f3f04a2603adfcf088927fc9528493d151d6305af329d9d"
+      url "https://github.com/zavora-ai/zavora-cli/releases/download/v2.1.1/zavora-cli-v2.1.1-darwin-arm64.tar.gz"
+      sha256 "6a31a724d24905fce9f936321fdeebb8a56d990bee12362ef31322f6c5804355"
     end
 
     on_intel do
-      url "https://github.com/zavora-ai/zavora-cli/releases/download/v2.1.0/zavora-cli-v2.1.0-darwin-x64.tar.gz"
-      sha256 "0ac91b7bc70d29a3d13c5778752d9aadb0351f60ec831a124ec49645a60bab4c"
+      url "https://github.com/zavora-ai/zavora-cli/releases/download/v2.1.1/zavora-cli-v2.1.1-darwin-x64.tar.gz"
+      sha256 "19ad4679b6f4ff6f0866dd9ebe741f047291d86577ec29e738f7a4192e88e8e4"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/zavora-ai/zavora-cli/releases/download/v2.1.0/zavora-cli-v2.1.0-linux-arm64.tar.gz"
-      sha256 "4ed3547c688a20d24dea4c0ffedfec0384239df92a0198f9eb1f4dd24be91c08"
+      url "https://github.com/zavora-ai/zavora-cli/releases/download/v2.1.1/zavora-cli-v2.1.1-linux-arm64.tar.gz"
+      sha256 "807165caff56981ef9f9cfe0d729d3d48dc5a6e3573737b6a3dae7f52412d8ce"
     end
 
     on_intel do
-      url "https://github.com/zavora-ai/zavora-cli/releases/download/v2.1.0/zavora-cli-v2.1.0-linux-x64.tar.gz"
-      sha256 "1d6f52313eddf6361970b40da49a6b30df5b978bed7bf44168e0caa7a01dd07f"
+      url "https://github.com/zavora-ai/zavora-cli/releases/download/v2.1.1/zavora-cli-v2.1.1-linux-x64.tar.gz"
+      sha256 "00b14e1a9872b96e8453d0b9faea14a671c2b346085f8a0e91076bea0bc2e3ff"
     end
   end
 
