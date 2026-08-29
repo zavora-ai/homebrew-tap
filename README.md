@@ -6,6 +6,7 @@ Custom Homebrew formulae from [Zavora Technologies Ltd](https://zavora.ai).
 
 ```bash
 brew tap zavora-ai/tap
+brew install zavora-cli
 brew install zlm
 ```
 
@@ -13,11 +14,17 @@ brew install zlm
 
 | Formula | Description |
 |---------|-------------|
+| `zavora-cli` | ADK-Rust agent platform for terminal work |
 | `zlm` | ZLaunch Manager — macOS launchd service manager CLI |
 
 ## Usage
 
 ```bash
+zavora-cli setup                # Configure a model provider
+zavora-cli chat                 # Open the interactive terminal workspace
+zavora-cli capabilities list    # Inspect live agent capabilities
+zavora-cli doctor               # Diagnose the local runtime
+
 zlm                          # List all launchd services
 zlm list -d user             # User agents only
 zlm list --running           # Only running services
